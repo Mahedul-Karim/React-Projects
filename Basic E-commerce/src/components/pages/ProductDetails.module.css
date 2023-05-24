@@ -1,0 +1,8 @@
+.details{
+    padding: 10rem 4rem;
+}
+@media (max-width:400px){
+    .details{
+        padding: 10rem 1rem;
+    }   
+}
