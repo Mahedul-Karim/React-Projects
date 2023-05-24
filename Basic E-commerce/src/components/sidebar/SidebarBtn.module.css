@@ -1,0 +1,41 @@
+.sidebar--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+    gap: 1rem;
+}
+
+.header--btn{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #102A42;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.header--btn svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+.header--btn span{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.count{
+    position: absolute;
+    display: block;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    top: -1rem;
+    left: 2rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.829);
+    font-size: 1.6rem !important;
+    border-radius: 50%;
+}

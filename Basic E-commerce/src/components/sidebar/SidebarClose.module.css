@@ -1,0 +1,11 @@
+.close{
+    background-color: transparent;
+    border: none;
+    padding-right:2rem;
+    cursor: pointer;
+}
+.close svg{
+    height: 3rem;
+    width: 3rem;
+    fill: black;
+}
